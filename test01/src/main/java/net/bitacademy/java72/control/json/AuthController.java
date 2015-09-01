@@ -18,7 +18,7 @@ import net.bitacademy.java72.service.MemberService;
 @RequestMapping("/json/auth")
 public class AuthController {
   @Autowired MemberService memberService;
-  
+  //주석
   @RequestMapping(value="/login")
   public Object login(
       String email, 
